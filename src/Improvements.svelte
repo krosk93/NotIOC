@@ -56,6 +56,10 @@
     }
 </style>
 
+<script>
+    export let fp = false;
+</script>
+
 <div class="container">
     <img src="./cortesia/img/logo.jpg"
     class="mx-auto d-block my-5"
@@ -64,6 +68,10 @@
 
 <div class="container text-center">
     <h2 class="my-5 display-4">Estem treballant en la millora del campus IOC</h2>
+    {#if fp}
+    <h2 class="my-5 display-4">Per causes tècniques s'ajorna la publicació de les notes d'FP</h2>
+    <h2 class="my-5 display-4">Molt aviat s'informarà de la nova data de publicació</h2>
+    {/if}
     <h3 class="my-5 display-5"> </h3>
     <h3 class="my-5 display-6">Lamentem les molèsties ocasionades</h3>
 </div>
